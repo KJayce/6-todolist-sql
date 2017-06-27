@@ -7,9 +7,12 @@
     function changeText(){
         if (counter == end){
             counter= 0;
-        }else{
+            ;
+        }else if(quotes[6]) {
+            counter == quotes[6];
+        } else{
             counter++;
         }document.getElementById('cham').innerHTML=quotes[counter];
             console.dir(counter);
     }
-        console.dir(end);
+        
