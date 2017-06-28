@@ -1,0 +1,3 @@
+In the case of the QCM exercise, you have to know that
+you the user is gonna have to register his informations
+therefore you'll need to make a form in wich he can put his 
