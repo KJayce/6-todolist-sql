@@ -15,4 +15,3 @@
         }document.getElementById('cham').innerHTML=quotes[counter];
             console.dir(counter);
     }
-        

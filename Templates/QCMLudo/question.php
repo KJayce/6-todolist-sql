@@ -1,6 +1,6 @@
 <?php 
-session_start();
-$errorLog = "";
+session_start(); // this php function allow you to stock data in the browser for later use
+$errorLog = ""; // knowing you have a form in wich errors might occur you create a variable to store those errors
 $content = array();
 
 if( !isset($_SESSION['name'] ) OR empty($_SESSION['name'] ) OR !isset($_SESSION['email'] ) OR empty($_SESSION["email"]))
@@ -91,7 +91,7 @@ else if (isset($_POST['submit']))
 
 						<!-- Reponse -->
 						<input type="hidden" name="question2" value="Quels sont les languages informatique qu'on apprend chez Becode ?">	
-						<input type="hidden" name="reponse2" value="PHP/CSS/HTML"">
+						<input type="hidden" name="reponse2" value="PHP/CSS/HTML">
 					</div><!-- Fin de question 2-->
 
 
